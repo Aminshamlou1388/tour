@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family: arial;
+}
+div.maincontent{
+    height: 680px;
+    background-image: url(logo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+}
+
+div.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+}
+div.navbar a {
+    color: white;
+    margin: -50px;
+  
+}
+div.navbar button{ 
+padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+div.details {
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+div.details button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: white;
+    color: darkturquoise;
+}
